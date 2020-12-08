@@ -547,7 +547,19 @@ section#app-section .app-container .app-image img{
 }
 
 
- 
+   /*** 
+
+====================================================================
+	footer Section
+====================================================================
+
+ ***/
+section#footer{
+	background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+
   /*** 
 
 ====================================================================
@@ -561,7 +573,7 @@ section#app-section .app-container .app-image img{
  }
 
  section#footer-top-section .footer-top{
-	border-bottom: 1px solid #D71B52;
+	/* border-bottom: 1px solid #D71B52; */
  }
 
  section#footer-top-section .footer-top .input-group{
@@ -620,7 +632,13 @@ section#app-section .app-container .app-image img{
 
  section#footer-bootom-section{
 	padding-bottom: 4px;
-	padding-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #D71B52;
+    background: rgba(32, 32, 32, .5);
+ }
+
+ section#footer-bootom-section .footer-bootom{
+	 
  }
 
  section#footer-bootom-section p{
@@ -631,7 +649,7 @@ section#app-section .app-container .app-image img{
 
  section#footer-bootom-section .social-icons{
 	text-align: center;
-	padding-left: 90px;
+	/* padding-left: 90px; */
  }
 
  section#footer-bootom-section .social-icons a{
@@ -733,7 +751,7 @@ Scroll Back To Top Button Section
 	display: block;
     position: fixed;
     bottom: 75px;
-    right: 381px;
+	right: 43px;
     z-index: 99;
     font-size: 18px;
     border: none;
